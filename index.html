@@ -1,0 +1,941 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <meta content="Hi! I'm Justin!" name="description" />
+  <meta property="og:image" content="images/me/home.jpg" />
+  <meta property="fb:admins" content="Soonkwon.Justin.Hwang" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Pacifico&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <!-- Argon CSS -->
+  <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
+
+  <!-- Animation CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <!-- Social Media Icons Hover Effect -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- Animation on scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>JC-Portfolio</title>
+
+
+  <!-- Personal Styling -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!---------------------------------- HEADER ---------------------------------->
+  <header class="header" id="header">
+    <nav class="nav container navbar-expand-lg">
+      <a href="#">
+        <img src="img/jc-logo.svg" alt="jc-logo" width="180px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default"
+        aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-check-alt nav__icon"></i>Skills
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">
+              <i class="uil uil-graduation-cap nav__icon"></i>Qualification
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-suitcase nav__icon"></i>Portfolio
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i>Contact Me
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+
+      <div class="nav__btns">
+        <!-- THEME CHANGING BUTTONS -->
+        <i data-mode="dark" class="uil uil-moon moon-change-theme" id="theme-button"></i>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="uil uil-apps"></i>
+      </div>
+      </div>
+    </nav>
+
+  </header>
+  <!-- ================================ MAIN ================================ -->
+  <main class="main">
+
+    <!------------------------- HOME ------------------------->
+    <div class="overlay"></div>
+    <section class="home section" id="home">
+
+      <div class="home__container container">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/soonkwon-hwang-22390a178/" target="_blank" class="home__social-icon"
+              id="myLinkedIn">
+              <img src="img/icon/linkedin.png" />
+            </a>
+            <a href="https://www.instagram.com/justinhwang92/" target="_blank" class="home__social-icon"
+              id="myInstagram">
+              <img src="img/icon/instagram.png" />
+            </a>
+
+            <a href="https://github.com/Justinhwang92/" target="_blank" class="home__social-icon" id="myGithub">
+              <img src="img/icon/github.png" />
+            </a>
+
+            <a href="https://www.facebook.com/soonkwon.hwang/" target="_blank" class="home__social-icon"
+              id="myFacebook">
+              <img src="img/icon/facebook.png" />
+            </a>
+
+
+            <!-- Add other things like twitter/youtube/stackoverflow? -->
+          </div>
+        </div>
+
+
+        <div class="home__data">
+          <!-- <small class="home_welcome s-color">Welcome to My Portfolio Website</small> -->
+          <h1 class="home__title">Hi! I'm Justin!</h1>
+          <div id="typewriter"></div>
+          <h3 class="home__subtitle" id="home-bio">I am an aspiring software engineer and a programmer </h3>
+
+          <a href="#contact" class="button button--flex" id="contact_button">
+            <!-- TODO: Maybe change this icon -->
+            Contact Me <i class="uil uil-message button__icon"></i>
+          </a>
+        </div>
+
+      </div>
+      <!-- TODO: Think if this is necessary -->
+      <div class="home__scroll">
+        <a href="#about" class="home__scroll-button button--flex">
+          <!-- TODO: Maybe change the mouse icon?-->
+          <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+          <!-- <span class="home__scroll-name">Scroll Down</span>
+          <i class="uil uil-angle-double-down home__scroll-arrow"></i> -->
+        </a>
+      </div>
+    </section>
+
+    <!------------------------- ABOUT ME ------------------------->
+    <section class="about section" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
+      <h2 class="section__title" id="about" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">About Me
+      </h2>
+      <span class="section__subtitle">I love programming!</span>
+
+      <div class="about__containter container grid">
+
+        <img src="img/me/about.jpg" alt="my photo" class="about__img">
+
+        <div class="about__data">
+          <p class="about__description" id="home-about">
+            I am Senior computer science student looking for new grad software engineer positions in 2022. I am Software Engineer prepared to 
+            apply my technical and project management skills throughout the full application 
+            life cycle to ensure client expectations are met or exceeded. My software engineering experience has enhanced my abilities 
+            to design, implement, experiment and innovate. I am eager to utilize these skills and further strengthen my technical 
+            skills while contributing to team success.
+          </p>
+        </div>
+
+        <div class="about__info">
+          <div>
+            <span class="about__info-title">1</span>
+            <span class="about__info-name"> Year <br> Experience</span>
+          </div>
+
+          <div>
+            <span class="about__info-title">10+</span>
+            <span class="about__info-name"> Completed <br> Upper-level Courses</span>
+          </div>
+
+          <div>
+            <span class="about__info-title">5+</span>
+            <span class="about__info-name"> Completed <br> Projects</span>
+          </div>
+
+          <!-- Add work experience year -->
+
+        </div>
+
+        <div class="about__buttons">
+          <a href="assets/#" download="Soonkwon_Hwang_Resume" class="button button--flex" data-toggle="modal"
+            data-target="#myModal">
+            My Resume <i class="uil uil-file-search-alt button__icon"></i> </a>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Soonkwon Hwnag's Resume</h4>
+                </div>
+                <div class="modal-body">
+                  <embed src="assets/Resume.pdf" frameborder="0" width="100%" height="600px">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              <!-- end -->
+
+            </div>
+          </div>
+
+
+    </section>
+    <!------------------------- SKILLS ------------------------->
+    <section class="skills section" id="skills">
+      <h2 class="section__title" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true"> Skills </h2>
+      <span class="section__subtitle">I learned Java, C, and Lisp in the school. <br> I am also a self-taught Frontend developer!
+        <br> Now I'm learning NestJS to utilize my TypeScript skill in the backend.</span>
+
+      <div class="skills__container container grid">
+        <!-- Each skill container begin -->
+        <div class="row" id="skillset_container" data-aos="flip-up" data-aos-duration="1200"
+          data-aos-easing="ease-out-cubic" data-aos-once="true">
+
+          <!-- Skill HTML -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/html.svg" alt="HTML LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> HTML </h2>
+            </div>
+          </div>
+
+          <!-- Skill CSS -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/css.svg" alt="CSS LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> CSS </h2>
+            </div>
+          </div>
+
+          <!-- Skill javascript -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/javascriptcircle.png" alt="JavaScript LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> JavaScript </h2>
+            </div>
+          </div>
+
+          <!-- Skill typescript -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/TScircle.png" alt="TypeScript LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> TypeScript </h2>
+            </div>
+          </div>
+
+          <!-- Skill NodeJS -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/nodejshexagon.png" alt="NodeJS Logo">
+            </div>
+            <div class="contentBox">
+              <h2> Node.js </h2>
+            </div>
+          </div>
+
+          <!-- Skill React -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/react.svg" alt="React LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> React </h2>
+            </div>
+          </div>
+
+          <!-- Skill Redux -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/redux.png" alt="Redux LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> Redux </h2>
+            </div>
+          </div>
+
+          <!-- Skill Expo -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/expo.png" alt="Expo LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> Expo </h2>
+            </div>
+          </div>
+
+          <!-- Skill NestJS -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/nest.svg" alt="NestJS LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> NestJS </h2>
+            </div>
+          </div>
+
+          <!-- Skill Flutter -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/flutter.png" alt="Flutter LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> Flutter </h2>
+            </div>
+          </div>
+
+          <!-- Skill Dart -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/dart.png" alt="Dart LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> Dart </h2>
+            </div>
+          </div>
+
+          <!-- Skill Drupal -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/drupal.png" alt="Drupal LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> Drupal </h2>
+            </div>
+          </div>
+
+          <!-- Skill Lisp -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/lisp.png" alt="LISP LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> Lisp </h2>
+            </div>
+          </div>
+
+          <!-- Skill C -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/c.png" alt="C LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> C </h2>
+            </div>
+          </div>
+
+          <!-- Skill Java -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/java.svg" alt="Java LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> Java </h2>
+            </div>
+          </div>
+
+          <!-- Skill MySQL -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/mysql.png" alt="MySQL LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> MySQL </h2>
+            </div>
+          </div>
+
+          <!-- Skill SQLite -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/sqlite.png" alt="SQLite LOGO">
+            </div>
+            <div class="contentBox">
+              <h2> SQLite </h2>
+            </div>
+          </div>
+
+          <!-- Git -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/git.svg" alt="Git Logo">
+            </div>
+            <div class="contentBox">
+              <h2> Git </h2>
+            </div>
+          </div>
+
+          <!-- Docker -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/docker.png" alt="Docker Logo">
+            </div>
+            <div class="contentBox">
+              <h2> Docker </h2>
+            </div>
+          </div>
+
+          <!-- Linux -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/linux.png" alt="Linux Logo">
+            </div>
+            <div class="contentBox">
+              <h2> Linux </h2>
+            </div>
+          </div>
+
+          <!-- Firebase -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <img src="img/icon/skills/firebase.svg" alt="Firebase Logo">
+            </div>
+            <div class="contentBox">
+              <h2> Firebase </h2>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!------------------------- EDUCATION(QUALIFICATION) ------------------------->
+    <section class="qualification section" id="qualification">
+      <h2 class="section__title" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true"> Qualification
+      </h2>
+      <span class="section__subtitle"> My Journey as someone trying to pivot into Tech. </span>
+
+      <div class="qualification__container container">
+
+        <div class="row mt-lg-0">
+          <!-- Education -->
+          <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+            <div class="qualification__button button--flex">
+              <i class="uil uil-graduation-cap qualification__icon"></i> Education
+            </div>
+
+            <div id="education_timeline">
+              <div class="container py-2">
+
+                <!-- Timeline item 1 -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2020
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title">Bachelor’s Degree in Computer Science</h3>
+                            <p class="qualification__subtitle">George Mason University
+                            </p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle"> GPA: 3.89 <br> I have taken Data Structures, Software Engineering, Formal Methods and Models, 
+                              Computer Systems and Programm, Database Concepts, Intro Artificial Intelligence, Analysis of Algorithms, 
+                              Numerical Analysis, Web App Development courses as Upper-level course so far.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Timeline item 2 NOVA-->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2017
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title">Associate Degree in Computer Science</h3>
+                            <p class="qualification__subtitle">Northern Virginia Community College</p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle">GPA: 3.9 </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Timeline item end -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__start">
+                          <i class="uil uil-rocket qualification__start-icon"></i>
+                        </span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience -->
+          <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
+            <div class="qualification__button button--flex">
+              <i class="uil uil-briefcase-alt qualification__icon"></i> Experience
+            </div>
+
+            <div id="expreience_timeline">
+              <div class="container py-2">
+                <!-- Timeline item 1 -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2021
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title">Software Engineer Internship</h3>
+                            <p class="qualification__subtitle">ITCON Services </p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle"> - Hands-on Drupal development experience, as well as working knowledge of HTML/CSS
+                              <br> - Working in an agile environment using tool JIRA
+                              <br> - Support IT team - set up and maintain company’s computer systems and network, especially Cisco IP phone applications and Office 365 applications. 
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Timeline item 2 -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2020
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title">Application Developer Internship</h3>
+                            <p class="qualification__subtitle">Tutor Dudes Services</p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle"> 
+                              - Using Java and Android Studio, work with a team to build educational mobile games for the students to improve math and physics skills
+                              <br> - Build the database system for the user information using SQLite and Firebase
+                              <br> - Build the application layout and UI using XML
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title">Application Developer Internship</h3>
+                            <p class="qualification__subtitle">The Social App</p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle"> 
+                              - Execute a group project focused on creating a peer-to-peer feature for mobile messaging applications using Java, Dart, and Flutter
+                              <br> - Implement the Bluetooth message feature for offline communication
+                              <br> - Research on Blockchain database, mesh network, and encryption method
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Timeline item end -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__start">
+                          <i class="uil uil-rocket qualification__start-icon"></i>
+                        </span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------- PROJECTS ------------------------->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">Portfolio</h2>
+      <span class="section__subtitle">Selected Projects</span>
+
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+
+          <!-- project item 1 -->
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="img/project/movie.png" alt="Project Item">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">August 2021</span>
+              <div class="blog-slider__title">Movie App</div>
+              <div class="blog-slider__text">This is an Movie information platform written in React and TypeScript.
+                Fully responsive web app and available in PWA app.</div>
+              <a href="https://github.com/Justinhwang92/justincoding-movie-ts" target="_blank"
+                class="button blog-slider__button button--flex">Repo
+                <i class="uil uil-github-alt button__icon"></i></a>
+            </div>
+          </div>
+          <!-- project item 1 end -->
+
+          <!-- project item 2 -->
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="img/project/wedding.png" alt="Project Item">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">July 2021</span>
+              <div class="blog-slider__title">Wedding invitation App</div>
+              <div class="blog-slider__text">This is the wedding invation card using JavaScript, HTML, CSS, and Bootstrap.
+                Web hosting by Github.
+              </div>
+              <a href="https://github.com/Justinhwang92/wedding-invitation" target="_blank"
+                class="button blog-slider__button button--flex">Repo
+                <i class="uil uil-github-alt button__icon"></i></a>
+            </div>
+          </div>
+          <!-- project item 2 end -->
+
+          <!-- project item 3 -->
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="img/project/hook.png" alt="Project Item">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">July 2021</span>
+              <div class="blog-slider__title">J-hooks</div>
+              <div class="blog-slider__text">Collection of React Hooks that I often use ready to install with NPM.</div>
+              <a href="https://github.com/Justinhwang92/J-hooks" target="_blank"
+                class="button blog-slider__button button--flex">Repo
+                <i class="uil uil-github-alt button__icon"></i></a>
+            </div>
+          </div>
+          <!-- project item 3 end -->
+
+          <!-- project item 4 -->
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="img/project/lisp.PNG" alt="Project Item">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">April 2021</span>
+              <div class="blog-slider__title">Connect-Four-Player AI</div>
+              <div class="blog-slider__text"> Written
+                in LISP. Implemented a working version of Connect Four complete with ASCII game board.
+                A heuristic funcion evaluates a given board state, and determines next moves to win.</div>
+              <a href="#portfolio" target="_blank" class="button blog-slider__button button--flex" data-toggle="modal"
+                data-target="#projectOne">Private
+                <i class="uil uil-lock button__icon"></i></a>
+              <div class="modal fade" id="projectOne" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Private Project</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Sorry this project is a school project. It's currently unavailable! If you want access
+                        please contact me!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  <!-- end -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- project item 4 end -->
+
+
+          <div class="blog-slider__pagination"></div>
+        </div>
+      </div>
+
+    </section>
+    <!------------------------- CONTACT ------------------------->
+    <section class="contact section" id="contact">
+      <h2 class="section__title"> Contact Me </h2>
+      <span class="section__subtitle"> Keep in Touch </span>
+      <!-- Contact Informaiton -->
+      <div class="contact_mail">
+
+        <h2 class="contact__title"> Feel free to contact me for any suggestions and advice.</h2>
+
+        <form action="mailto:justinhwang92@gmail.com" method="POST" class="cf">
+          <div class="row">
+            <div class="col-lg-6">
+              <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+            </div>
+            <div class="col-lg-6">
+              <input type="email" name="message-email" class="form-control form__color mb-30 cf"
+                placeholder="Your Email">
+            </div>
+            <div class="col-12">
+              <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+            </div>
+            <div class="col-12">
+              <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5"
+                placeholder="Your Message"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" value="Send" class="button button--flex send-message form_button">
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+
+    </section>
+  </main>
+  <!---------------------------------- FOOTER ---------------------------------->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+
+        <div class="footer__socials_container">
+          <ul class="footer__socials">
+            <li>
+              <a href="https://www.facebook.com/soonkwon.hwang/" class="footer__social">
+                <i class="fab fa-facebook-f icon"></i> </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/justinhwang92/" class="footer__social"><i
+                  class="fab fa-instagram icon"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/soonkwon-hwang-22390a178/" class="footer__social"><i
+                  class="fab fa-linkedin-in icon"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/Justinhwang92/" class="footer__social"><i class="fab fa-github icon"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; All rights reserved</p>
+      <a href="https://icons8.com">
+        <p class="footer__copy" href="https://icons8.com"><a href="https://icons8.com"></a> 
+      </a></p>
+    </div>
+  </footer>
+
+  <!-- ------------- SCROLL TOP -------------------->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!-- Core -->
+  <script src="js/core/jquery.min.js"></script>
+  <script src="js/core/popper.min.js"></script>
+  <script src="js/core/bootstrap.min.js"></script>
+
+  <!-- Argon JS -->
+  <script src="js/argon-design-system.js"></script>
+
+  <!--  Typewriter CSS Effect -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Self Script -->
+  <script src="js/script.js"></script>
+
+  <!-- Social Media Icons Hover Effect  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <!-- Animation on scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
