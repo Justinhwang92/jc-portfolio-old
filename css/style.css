@@ -15,6 +15,7 @@
   --first-color-alt: hsl(var(--hue-color), 10%, 40%);
   --first-color-lighter: #bad8f5;
   --icon-color: #b2d1f7;
+  --bullet-color: #062744;
 
   --transparent-card-color: #fff;
   --card-color: #b2d1f7;
@@ -95,6 +96,7 @@ body.dark-theme {
   --card-color: #1c2530;
   --transparent-card-color: hsl(var(--hue-color), 30%, 14%);
   --icon-color: #fff;
+  --bullet-color: #fff;
 
   --title-color: hsl(var(--hue-color), 10%, 95%);
   --text-color: hsl(var(--hue-color), 10%, 75%);
@@ -1027,7 +1029,7 @@ img {
   height: 11px;
   display: block;
   border-radius: 10px;
-  background: #062744;
+  background: var(--bullet-color);
   opacity: 0.2;
   transition: all 0.3s;
 }
