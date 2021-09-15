@@ -786,7 +786,7 @@ img {
   position: relative;
   max-width: 800px;
   margin: auto;
-  background: #fff;
+  background: var(--card-color);
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
   padding: 25px;
   border-radius: 25px;
@@ -948,7 +948,7 @@ img {
 .blog-slider__title {
   font-size: 24px;
   font-weight: 700;
-  color: #0d0925;
+  color: var(--first-color-alt);
   margin-bottom: 20px;
 }
 .blog-slider__text {
