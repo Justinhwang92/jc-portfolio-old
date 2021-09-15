@@ -52,18 +52,18 @@ var $tagsinput = $(".tagsinput");
 
 $(document).ready(function () {
   //  Activate the Tooltips
-  $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
+  // $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
 
-  // Activate Popovers and set color for popovers
-  $('[data-toggle="popover"]').each(function () {
-    color_class = $(this).data("color");
-    $(this).popover({
-      template:
-        '<div class="popover popover-' +
-        color_class +
-        '" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>',
-    });
-  });
+  // // Activate Popovers and set color for popovers
+  // $('[data-toggle="popover"]').each(function () {
+  //   color_class = $(this).data("color");
+  //   $(this).popover({
+  //     template:
+  //       '<div class="popover popover-' +
+  //       color_class +
+  //       '" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>',
+  //   });
+  // });
 
   var squares1 = document.getElementById("square1");
   var squares2 = document.getElementById("square2");
@@ -164,9 +164,9 @@ $(document).ready(function () {
   });
 
   // Activate Carousel
-  $(".carousel").carousel({
-    interval: false,
-  });
+  // $(".carousel").carousel({
+  //   interval: false,
+  // });
 
   // Datepicker
   $(".datepicker")[0] &&
@@ -178,18 +178,18 @@ $(document).ready(function () {
     });
 
   // Datepicker
-  flatpickr(".flatpickr", {});
+  // flatpickr(".flatpickr", {});
 
   // Datepicker - range
-  flatpickr(".range", {
-    mode: "range",
-  });
+  // flatpickr(".range", {
+  //   mode: "range",
+  // });
 
-  // DateTimePicker
-  flatpickr(".datetimepicker", {
-    enableTime: true,
-    dateFormat: "Y-m-d H:i",
-  });
+  // // DateTimePicker
+  // flatpickr(".datetimepicker", {
+  //   enableTime: true,
+  //   dateFormat: "Y-m-d H:i",
+  // });
 
   // Activate Sliders
   ArgonKit.initSliders();
