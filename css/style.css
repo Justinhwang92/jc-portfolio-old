@@ -14,6 +14,7 @@
   --first-color--second: #84b6f3;
   --first-color-alt: hsl(var(--hue-color), 10%, 40%);
   --first-color-lighter: #bad8f5;
+  --icon-color: #b2d1f7;
 
   --transparent-card-color: #fff;
   --card-color: #b2d1f7;
@@ -93,6 +94,7 @@ body.dark-theme {
   --first-color-lighter: #1c2530;
   --card-color: #1c2530;
   --transparent-card-color: hsl(var(--hue-color), 30%, 14%);
+  --icon-color: #fff;
 
   --title-color: hsl(var(--hue-color), 10%, 95%);
   --text-color: hsl(var(--hue-color), 10%, 75%);
@@ -652,7 +654,7 @@ img {
 }
 
 .qualification__button {
-  color: var(--first-color);
+  color: var(--icon-color);
   font-size: var(--h2-font-size);
   font-weight: var(--font-medium);
   cursor: pointer;
