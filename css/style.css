@@ -93,7 +93,7 @@ body.dark-theme {
   --first-color--second: #fff;
   --first-color-alt: hsl(var(--hue-color), 10%, 75%);
   --first-color-lighter: #1c2530;
-  --card-color: #1c2530;
+  --card-color: #0c131b;
   --transparent-card-color: hsl(var(--hue-color), 30%, 14%);
   --icon-color: #fff;
   --bullet-color: #fff;
@@ -956,7 +956,7 @@ img {
   margin-bottom: 20px;
 }
 .blog-slider__text {
-  color: #4e4a67;
+  color: #8898aa;
   margin-bottom: 30px;
   line-height: 1.5em;
 }
