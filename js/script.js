@@ -68,7 +68,7 @@ navLink.forEach((n) => n.addEventListener("click", linkAction));
 //===================================== Typewriter Effect =====================================
 
 new Typewriter("#typewriter", {
-  strings: ["Aspiring Software Engineer", "CS Student", "Programmer"],
+  strings: ["Software Engineer", "Frontend Developer", "Programmer"],
   autoStart: true,
   loop: true,
   cursor: "|",
